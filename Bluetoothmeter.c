@@ -44,3 +44,4 @@ void initPorts(){
      TRISD = 0x00;
      UART1_Init(9600);
 }
+//if reaches the value of 64, it sends the same value/does not increase.
